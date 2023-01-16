@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+
+   
+    
+}
+
+
+.listMain{
+    
+    width: 100%;
+    height: 115vh; 
+    min-height: 300px;
+    background-image: url(listBack1.png);
+    background-size: cover;
+
+}
+.listRow{
+    display: table;
+    
+    width: 80%;
+    margin: 0px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px  0  ;
+    color: #555;
+    font-size: 15px;
+    box-shadow: 0 3px 10px 0 rgba(0,0,50,0.3);
+}
+.listCell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 1px solid lightgreen;
+    vertical-align: middle;
+}
+.First{
+    background: antiquewhite;
+    box-shadow: none;
+    color: coral;
+    font-size: 20px; 
+
+}
+.listRow .listCell{
+    border-right: none;
+
+}
+.lastCell{
+    border-right: none;
+}
+.lastCell a{
+    color: lightsalmon
+}
+.firstCell{
+    padding-left: 10px;
+    border-left: none;
+    /* text-align: left; */
+}
+.return{
+    text-align: center;
+    position: fixed;
+    
+    top :0;
+}
+.return a{
+    color: crimson;
+}

@@ -1,0 +1,91 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(backgroundweb.jpg);
+    font-size: large;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.todo-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todo-body{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0, 139, 139, 0.722);
+    font-size: x-large;
+    backdrop-filter: blur(10px);
+    line-height: 1.7;
+    box-shadow: 10px 5px 5px rgba(22, 82, 93, 0.149);
+}
+.new-task{
+    background: 0;
+    border: 0ch;
+    font-size: large;
+    color:aliceblue;
+}
+.new-task:focus::placeholder{
+    opacity: 0.3;
+}
+
+.taskbutton{
+    cursor: pointer;
+    background: 0;
+    font-size: large;
+    border: 0;
+    color: aliceblue;
+}
+.taskbutton:hover{
+   font-size: larger;
+}
+.new-task::placeholder{
+    color:aliceblue;
+    opacity: 1;
+}
+.new-task:hover{
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+}
+.delete:hover{
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+}
+.delete{
+    cursor: pointer;
+    background: 0;
+    font-size: large;
+    border: 0;
+    color: aliceblue;
+    text-align: left;
+}
+
+.header-title{
+    background-color:rgb(95, 160, 156);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    flex-wrap: wrap;
+    border-style: ridge;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav li {
+    margin-left: 50px;
+        }
+
+.nav a {
+    text-decoration: none;
+    color:blue;
+        }
+
+  
